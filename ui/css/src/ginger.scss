@@ -19,14 +19,14 @@
 //
 // Wok Variables
 // ----------------------------------------------------------------------------
-@import "../../../../../../../ui/css/src/modules/wok-variables";
+@import "modules/wok-variables";
 
 //
 // Imported functions
 // ----------------------------------------------------------------------------
-@import "../../../../../../../ui/css/src/modules/compact";
-@import "../../../../../../../ui/css/src/vendor/compass-mixins/lib/compass";
-@import "../../../../../../../ui/css/src/modules/wok-accordion";
+@import "modules/compact";
+@import "vendor/compass-mixins/lib/compass";
+@import "modules/wok-accordion";
 
 //
 // Ginger style
