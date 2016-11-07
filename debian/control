@@ -1,0 +1,32 @@
+Source: ginger
+Section: misc
+Priority: optional
+Maintainer: Lucio Correia <luciojhc@linux.vnet.ibm.com>
+Standards-Version: 3.9.8
+Build-Depends: compass-bootstrap-sass-plugin,
+               debhelper (>= 10),
+               dh-python,
+               pysassc,
+               python,
+               python-pkg-resources,
+               ruby-compass-core,
+               xsltproc,
+               wok-dev
+Homepage: https://github.com/kimchi-project/ginger
+
+Package: ginger
+Architecture: all
+Depends: wok,
+         ginger-base,
+         python-augeas,
+         python-crypto,
+         python-ethtool,
+         python-ipaddr,
+         python-libuser,
+         python-magic,
+         python-netaddr,
+         ${shlibs:Depends},
+         ${misc:Depends}
+Description: Host management plugin for Wok
+ Ginger provides an intuitive web panel with common tools for configuring and
+ operating Linux systems.

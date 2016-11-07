@@ -1,0 +1,13 @@
+ginger (2.3.1-1) unstable; urgency=low
+
+  * Update to 2.3.1 (Closes: #775747)
+  * ginger now depends on wok (ITP #846595) and ginger-base (ITP #846598)
+
+ -- Lucio Correia <luciojhc@linux.vnet.ibm.com>  Thu, 22 Dec 2016 18:25:45 -0200
+
+
+ginger (1.3.0.1-0ubuntu1) wily; urgency=medium
+
+  * Initial release (Closes: #775747, LP: #1414826)
+
+ -- Frédéric Bonnard <frediz@linux.vnet.ibm.com>  Thu, 19 Feb 2015 15:07:50 +0000
