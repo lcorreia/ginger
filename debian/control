@@ -26,6 +26,7 @@ Depends: wok,
          python-magic,
          python-netaddr,
          ${shlibs:Depends},
+         ${python:Depends},
          ${misc:Depends}
 Description: Host management plugin for Wok
  Ginger provides an intuitive web panel with common tools for configuring and
