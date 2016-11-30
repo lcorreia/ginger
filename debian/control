@@ -18,6 +18,7 @@ Package: ginger
 Architecture: all
 Depends: wok,
          ginger-base,
+         libuser,
          python-augeas,
          python-crypto,
          python-ethtool,
