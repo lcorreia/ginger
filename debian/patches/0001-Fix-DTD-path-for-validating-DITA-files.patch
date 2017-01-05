@@ -1,0 +1,222 @@
+From e2ec79c941b04fecb19acee64e74a0f9ebb2916e Mon Sep 17 00:00:00 2001
+From: Lucio Correia <luciojhc@linux.vnet.ibm.com>
+Date: Thu, 5 Jan 2017 11:19:47 -0200
+Subject: [PATCH] Fix DTD path for validating DITA files
+
+Signed-off-by: Lucio Correia <luciojhc@linux.vnet.ibm.com>
+---
+ ui/pages/help/de_DE/host-admin.dita           | 2 +-
+ ui/pages/help/en_US/host-admin.dita           | 2 +-
+ ui/pages/help/en_US/host-network.dita         | 2 +-
+ ui/pages/help/en_US/host-server.dita          | 2 +-
+ ui/pages/help/en_US/host-storage.dita         | 2 +-
+ ui/pages/help/en_US/host-system-services.dita | 2 +-
+ ui/pages/help/es_ES/host-admin.dita           | 2 +-
+ ui/pages/help/fr_FR/host-admin.dita           | 2 +-
+ ui/pages/help/it_IT/host-admin.dita           | 2 +-
+ ui/pages/help/ja_JP/host-admin.dita           | 2 +-
+ ui/pages/help/ko_KR/host-admin.dita           | 2 +-
+ ui/pages/help/pt_BR/host-admin.dita           | 2 +-
+ ui/pages/help/ru_RU/host-admin.dita           | 2 +-
+ ui/pages/help/zh_CN/host-admin.dita           | 2 +-
+ ui/pages/help/zh_TW/host-admin.dita           | 2 +-
+ 15 files changed, 15 insertions(+), 15 deletions(-)
+
+diff --git a/ui/pages/help/de_DE/host-admin.dita b/ui/pages/help/de_DE/host-admin.dita
+index 1ac67c0..9f42370 100644
+--- a/ui/pages/help/de_DE/host-admin.dita
++++ b/ui/pages/help/de_DE/host-admin.dita
+@@ -18,7 +18,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ -->
+ <!--Arbortext, Inc., 1988-2011, v.4002-->
+ <!DOCTYPE cshelp PUBLIC "-//IBM//DTD DITA CSHelp//EN"
+- "..\dtd\cshelp.dtd">
++ "../ditaval.dtd">
+ 
+ 
+ <!--This DITA specialized document type is not supported by the Authoring Tools development team.
+diff --git a/ui/pages/help/en_US/host-admin.dita b/ui/pages/help/en_US/host-admin.dita
+index 0cf46de..3e6c53c 100644
+--- a/ui/pages/help/en_US/host-admin.dita
++++ b/ui/pages/help/en_US/host-admin.dita
+@@ -18,7 +18,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ -->
+ <!--Arbortext, Inc., 1988-2011, v.4002-->
+ <!DOCTYPE cshelp PUBLIC "-//IBM//DTD DITA CSHelp//EN"
+- "..\dtd\cshelp.dtd">
++ "../ditaval.dtd">
+ <?Pub Sty _display FontColor="red"?>
+ <?Pub Inc?>
+ <!--This DITA specialized document type is not supported by the Authoring Tools development team.
+diff --git a/ui/pages/help/en_US/host-network.dita b/ui/pages/help/en_US/host-network.dita
+index b3b765b..b115bf1 100644
+--- a/ui/pages/help/en_US/host-network.dita
++++ b/ui/pages/help/en_US/host-network.dita
+@@ -18,7 +18,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ -->
+ <!--Arbortext, Inc., 1988-2011, v.4002-->
+ <!DOCTYPE cshelp PUBLIC "-//IBM//DTD DITA CSHelp//EN"
+- "..\dtd\cshelp.dtd">
++ "../ditaval.dtd">
+ <?Pub Sty _display FontColor="red"?>
+ <?Pub Inc?>
+ <!--This DITA specialized document type is not supported by the Authoring Tools development team.
+diff --git a/ui/pages/help/en_US/host-server.dita b/ui/pages/help/en_US/host-server.dita
+index 766817a..b6c8ad8 100644
+--- a/ui/pages/help/en_US/host-server.dita
++++ b/ui/pages/help/en_US/host-server.dita
+@@ -18,7 +18,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ -->
+ <!--Arbortext, Inc., 1988-2011, v.4002-->
+ <!DOCTYPE cshelp PUBLIC "-//IBM//DTD DITA CSHelp//EN"
+- "..\dtd\cshelp.dtd">
++ "../ditaval.dtd">
+ <?Pub Sty _display FontColor="red"?>
+ <?Pub Inc?>
+ <!--This DITA specialized document type is not supported by the Authoring Tools development team.
+diff --git a/ui/pages/help/en_US/host-storage.dita b/ui/pages/help/en_US/host-storage.dita
+index 8dfc0ee..0ece2a6 100644
+--- a/ui/pages/help/en_US/host-storage.dita
++++ b/ui/pages/help/en_US/host-storage.dita
+@@ -18,7 +18,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ -->
+ <!--Arbortext, Inc., 1988-2011, v.4002-->
+ <!DOCTYPE cshelp PUBLIC "-//IBM//DTD DITA CSHelp//EN"
+- "..\dtd\cshelp.dtd">
++ "../ditaval.dtd">
+ <?Pub Sty _display FontColor="red"?>
+ <?Pub Inc?>
+ <!--This DITA specialized document type is not supported by the Authoring Tools development team.
+diff --git a/ui/pages/help/en_US/host-system-services.dita b/ui/pages/help/en_US/host-system-services.dita
+index a542ccd..82f48a0 100644
+--- a/ui/pages/help/en_US/host-system-services.dita
++++ b/ui/pages/help/en_US/host-system-services.dita
+@@ -18,7 +18,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ -->
+ <!--Arbortext, Inc., 1988-2011, v.4002-->
+ <!DOCTYPE cshelp PUBLIC "-//IBM//DTD DITA CSHelp//EN"
+- "..\dtd\cshelp.dtd">
++ "../ditaval.dtd">
+ <?Pub Sty _display FontColor="red"?>
+ <?Pub Inc?>
+ <!--This DITA specialized document type is not supported by the Authoring Tools development team.
+diff --git a/ui/pages/help/es_ES/host-admin.dita b/ui/pages/help/es_ES/host-admin.dita
+index 3e7eac4..f7a4660 100644
+--- a/ui/pages/help/es_ES/host-admin.dita
++++ b/ui/pages/help/es_ES/host-admin.dita
+@@ -18,7 +18,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ -->
+ <!--Arbortext, Inc., 1988-2011, v.4002-->
+ <!DOCTYPE cshelp PUBLIC "-//IBM//DTD DITA CSHelp//EN"
+- "..\dtd\cshelp.dtd">
++ "../ditaval.dtd">
+ 
+ 
+ <!--This DITA specialized document type is not supported by the Authoring Tools development team.
+diff --git a/ui/pages/help/fr_FR/host-admin.dita b/ui/pages/help/fr_FR/host-admin.dita
+index 11a8650..0f3c06b 100644
+--- a/ui/pages/help/fr_FR/host-admin.dita
++++ b/ui/pages/help/fr_FR/host-admin.dita
+@@ -18,7 +18,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ -->
+ <!--Arbortext, Inc., 1988-2011, v.4002-->
+ <!DOCTYPE cshelp PUBLIC "-//IBM//DTD DITA CSHelp//EN"
+- "..\dtd\cshelp.dtd">
++ "../ditaval.dtd">
+ 
+ 
+ <!--This DITA specialized document type is not supported by the Authoring Tools development team.
+diff --git a/ui/pages/help/it_IT/host-admin.dita b/ui/pages/help/it_IT/host-admin.dita
+index 769f6c3..a7c21d9 100644
+--- a/ui/pages/help/it_IT/host-admin.dita
++++ b/ui/pages/help/it_IT/host-admin.dita
+@@ -18,7 +18,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ -->
+ <!--Arbortext, Inc., 1988-2011, v.4002-->
+ <!DOCTYPE cshelp PUBLIC "-//IBM//DTD DITA CSHelp//EN"
+- "..\dtd\cshelp.dtd">
++ "../ditaval.dtd">
+ 
+ 
+ <!--This DITA specialized document type is not supported by the Authoring Tools development team.
+diff --git a/ui/pages/help/ja_JP/host-admin.dita b/ui/pages/help/ja_JP/host-admin.dita
+index bd22f91..454798e 100644
+--- a/ui/pages/help/ja_JP/host-admin.dita
++++ b/ui/pages/help/ja_JP/host-admin.dita
+@@ -18,7 +18,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ -->
+ <!--Arbortext, Inc., 1988-2011, v.4002-->
+ <!DOCTYPE cshelp PUBLIC "-//IBM//DTD DITA CSHelp//EN"
+- "..\dtd\cshelp.dtd">
++ "../ditaval.dtd">
+ 
+ 
+ <!--This DITA specialized document type is not supported by the Authoring Tools development team.
+diff --git a/ui/pages/help/ko_KR/host-admin.dita b/ui/pages/help/ko_KR/host-admin.dita
+index 3b7f1dd..8d75e97 100644
+--- a/ui/pages/help/ko_KR/host-admin.dita
++++ b/ui/pages/help/ko_KR/host-admin.dita
+@@ -18,7 +18,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ -->
+ <!--Arbortext, Inc., 1988-2011, v.4002-->
+ <!DOCTYPE cshelp PUBLIC "-//IBM//DTD DITA CSHelp//EN"
+- "..\dtd\cshelp.dtd">
++ "../ditaval.dtd">
+ 
+ 
+ <!--This DITA specialized document type is not supported by the Authoring Tools development team.
+diff --git a/ui/pages/help/pt_BR/host-admin.dita b/ui/pages/help/pt_BR/host-admin.dita
+index fe211f6..ff33662 100644
+--- a/ui/pages/help/pt_BR/host-admin.dita
++++ b/ui/pages/help/pt_BR/host-admin.dita
+@@ -18,7 +18,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ -->
+ <!--Arbortext, Inc., 1988-2011, v.4002-->
+ <!DOCTYPE cshelp PUBLIC "-//IBM//DTD DITA CSHelp//EN"
+- "..\dtd\cshelp.dtd">
++ "../ditaval.dtd">
+ 
+ 
+ <!--This DITA specialized document type is not supported by the Authoring Tools development team.
+diff --git a/ui/pages/help/ru_RU/host-admin.dita b/ui/pages/help/ru_RU/host-admin.dita
+index 5d70cb0..98fcdca 100644
+--- a/ui/pages/help/ru_RU/host-admin.dita
++++ b/ui/pages/help/ru_RU/host-admin.dita
+@@ -18,7 +18,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ -->
+ <!--Arbortext, Inc., 1988-2011, v.4002-->
+ <!DOCTYPE cshelp PUBLIC "-//IBM//DTD DITA CSHelp//EN"
+- "..\dtd\cshelp.dtd">
++ "../ditaval.dtd">
+ 
+ 
+ <!--This DITA specialized document type is not supported by the Authoring Tools development team.
+diff --git a/ui/pages/help/zh_CN/host-admin.dita b/ui/pages/help/zh_CN/host-admin.dita
+index 28c7039..8edf7e0 100644
+--- a/ui/pages/help/zh_CN/host-admin.dita
++++ b/ui/pages/help/zh_CN/host-admin.dita
+@@ -18,7 +18,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ -->
+ <!--Arbortext, Inc., 1988-2011, v.4002-->
+ <!DOCTYPE cshelp PUBLIC "-//IBM//DTD DITA CSHelp//EN"
+- "..\dtd\cshelp.dtd">
++ "../ditaval.dtd">
+ 
+ 
+ <!--This DITA specialized document type is not supported by the Authoring Tools development team.
+diff --git a/ui/pages/help/zh_TW/host-admin.dita b/ui/pages/help/zh_TW/host-admin.dita
+index 398952e..1be72fd 100644
+--- a/ui/pages/help/zh_TW/host-admin.dita
++++ b/ui/pages/help/zh_TW/host-admin.dita
+@@ -18,7 +18,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ -->
+ <!--Arbortext, Inc., 1988-2011, v.4002-->
+ <!DOCTYPE cshelp PUBLIC "-//IBM//DTD DITA CSHelp//EN"
+- "..\dtd\cshelp.dtd">
++ "../ditaval.dtd">
+ 
+ 
+ <!--This DITA specialized document type is not supported by the Authoring Tools development team.
+-- 
+2.7.4
+
